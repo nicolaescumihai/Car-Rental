@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/open.css.twig */
+/* WebProfilerBundle:Profiler:open.css.twig */
 class __TwigTemplate_be711aafd6a605d3ee7cb85ebd2fb113c087c5ccf842eb0133a7c7a00bf6ed70 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_be711aafd6a605d3ee7cb85ebd2fb113c087c5ccf842eb0133a7c7a00bf
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2250e828ed9c96cafbc2cf26dc467c680e9d0c4d6f5c61ec6c97fe80d0950b35 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2250e828ed9c96cafbc2cf26dc467c680e9d0c4d6f5c61ec6c97fe80d0950b35->enter($__internal_2250e828ed9c96cafbc2cf26dc467c680e9d0c4d6f5c61ec6c97fe80d0950b35_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/open.css.twig"));
+        $__internal_5e420879112258bb7eaf125148553a520aafed8041bebe487f93db56f90834a2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_5e420879112258bb7eaf125148553a520aafed8041bebe487f93db56f90834a2->enter($__internal_5e420879112258bb7eaf125148553a520aafed8041bebe487f93db56f90834a2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:open.css.twig"));
 
-        $__internal_7978bb04e9cf8ce0245b2f7fcb9847decb19c95702f3248ca539fe2134109c4c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7978bb04e9cf8ce0245b2f7fcb9847decb19c95702f3248ca539fe2134109c4c->enter($__internal_7978bb04e9cf8ce0245b2f7fcb9847decb19c95702f3248ca539fe2134109c4c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/open.css.twig"));
+        $__internal_f47fff266171a84e1ba6e5d9b35259577960c0b2d39c291ab347cc7978e00792 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f47fff266171a84e1ba6e5d9b35259577960c0b2d39c291ab347cc7978e00792->enter($__internal_f47fff266171a84e1ba6e5d9b35259577960c0b2d39c291ab347cc7978e00792_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:open.css.twig"));
 
         // line 3
         $context["mixins"] = array("break_long_words" => "-ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;", "monospace_font" => "font-family: monospace; font-size: 13px; font-size-adjust: 0.5;", "sans_serif_font" => "font-family: Helvetica, Arial, sans-serif;", "subtle_border_and_shadow" => "background: #FFF; border: 1px solid #E0E0E0; box-shadow: 0px 0px 1px rgba(128, 128, 128, .2);");
@@ -94,16 +94,16 @@ a.doc:hover {
 }
 ";
         
-        $__internal_2250e828ed9c96cafbc2cf26dc467c680e9d0c4d6f5c61ec6c97fe80d0950b35->leave($__internal_2250e828ed9c96cafbc2cf26dc467c680e9d0c4d6f5c61ec6c97fe80d0950b35_prof);
+        $__internal_5e420879112258bb7eaf125148553a520aafed8041bebe487f93db56f90834a2->leave($__internal_5e420879112258bb7eaf125148553a520aafed8041bebe487f93db56f90834a2_prof);
 
         
-        $__internal_7978bb04e9cf8ce0245b2f7fcb9847decb19c95702f3248ca539fe2134109c4c->leave($__internal_7978bb04e9cf8ce0245b2f7fcb9847decb19c95702f3248ca539fe2134109c4c_prof);
+        $__internal_f47fff266171a84e1ba6e5d9b35259577960c0b2d39c291ab347cc7978e00792->leave($__internal_f47fff266171a84e1ba6e5d9b35259577960c0b2d39c291ab347cc7978e00792_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/open.css.twig";
+        return "WebProfilerBundle:Profiler:open.css.twig";
     }
 
     public function isTraitable()
@@ -200,6 +200,6 @@ a.doc:hover {
     top: -7em;
     visibility: hidden;
 }
-", "@WebProfiler/Profiler/open.css.twig", "/home/nicolaescu/Workspace/CarRental/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.css.twig");
+", "WebProfilerBundle:Profiler:open.css.twig", "/home/nicolaescu/Workspace/Car-Rental/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.css.twig");
     }
 }

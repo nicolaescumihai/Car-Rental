@@ -104,7 +104,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        elseif (0 === strpos($pathinfo, '/car')) {
+        // comenzi
+        if ('/admin/showAllOrders' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\AdminController::showAllOrdersAction',  '_route' => 'comenzi',);
+        }
+
+        // app_admin_showallusers
+        if ('/admin/showAllUsers' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\AdminController::showAllUsersAction',  '_route' => 'app_admin_showallusers',);
+        }
+
+        if (0 === strpos($pathinfo, '/car')) {
             // car_index
             if ('/car' === $trimmedPathinfo) {
                 if ('GET' !== $canonicalMethod) {

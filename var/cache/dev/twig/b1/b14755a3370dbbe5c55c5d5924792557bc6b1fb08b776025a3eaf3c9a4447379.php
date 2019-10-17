@@ -1,6 +1,6 @@
 <?php
 
-/* AppBundle:Admin:show_all_users.html.twig */
+/* @App/Admin/show_all_users.html.twig */
 class __TwigTemplate_690f493ef66fe78aac9c68896ab1ba99b970de7d2846a91fc61ce9021d43c903 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,9 +8,8 @@ class __TwigTemplate_690f493ef66fe78aac9c68896ab1ba99b970de7d2846a91fc61ce9021d4
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", "AppBundle:Admin:show_all_users.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", "@App/Admin/show_all_users.html.twig", 1);
         $this->blocks = array(
-            'title' => array($this, 'block_title'),
             'body' => array($this, 'block_body'),
         );
     }
@@ -22,62 +21,57 @@ class __TwigTemplate_690f493ef66fe78aac9c68896ab1ba99b970de7d2846a91fc61ce9021d4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_3ddd6e432f28d2dfdc7599b6a41e69d3e7719292b76e5da6f3032b28ecab0e5d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3ddd6e432f28d2dfdc7599b6a41e69d3e7719292b76e5da6f3032b28ecab0e5d->enter($__internal_3ddd6e432f28d2dfdc7599b6a41e69d3e7719292b76e5da6f3032b28ecab0e5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Admin:show_all_users.html.twig"));
+        $__internal_ade9c7ea5d47ab7e9e768aa6427eeddbbbf0694d240b2738eed8c30e38d29cc1 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ade9c7ea5d47ab7e9e768aa6427eeddbbbf0694d240b2738eed8c30e38d29cc1->enter($__internal_ade9c7ea5d47ab7e9e768aa6427eeddbbbf0694d240b2738eed8c30e38d29cc1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/Admin/show_all_users.html.twig"));
 
-        $__internal_44debc92ed384e281964521b0f18424b407afd0bb570c221bc84b0db41d5b312 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_44debc92ed384e281964521b0f18424b407afd0bb570c221bc84b0db41d5b312->enter($__internal_44debc92ed384e281964521b0f18424b407afd0bb570c221bc84b0db41d5b312_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AppBundle:Admin:show_all_users.html.twig"));
+        $__internal_af3394ee89c951b01f2f43efb7d28a21566db89a821644678aba702f68eb2015 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_af3394ee89c951b01f2f43efb7d28a21566db89a821644678aba702f68eb2015->enter($__internal_af3394ee89c951b01f2f43efb7d28a21566db89a821644678aba702f68eb2015_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@App/Admin/show_all_users.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_3ddd6e432f28d2dfdc7599b6a41e69d3e7719292b76e5da6f3032b28ecab0e5d->leave($__internal_3ddd6e432f28d2dfdc7599b6a41e69d3e7719292b76e5da6f3032b28ecab0e5d_prof);
+        $__internal_ade9c7ea5d47ab7e9e768aa6427eeddbbbf0694d240b2738eed8c30e38d29cc1->leave($__internal_ade9c7ea5d47ab7e9e768aa6427eeddbbbf0694d240b2738eed8c30e38d29cc1_prof);
 
         
-        $__internal_44debc92ed384e281964521b0f18424b407afd0bb570c221bc84b0db41d5b312->leave($__internal_44debc92ed384e281964521b0f18424b407afd0bb570c221bc84b0db41d5b312_prof);
+        $__internal_af3394ee89c951b01f2f43efb7d28a21566db89a821644678aba702f68eb2015->leave($__internal_af3394ee89c951b01f2f43efb7d28a21566db89a821644678aba702f68eb2015_prof);
 
     }
 
-    // line 3
-    public function block_title($context, array $blocks = array())
-    {
-        $__internal_4a6a946cb1d0459b785f569488549a727d859d25e9a2b63bf6fd8c75b778b23d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_4a6a946cb1d0459b785f569488549a727d859d25e9a2b63bf6fd8c75b778b23d->enter($__internal_4a6a946cb1d0459b785f569488549a727d859d25e9a2b63bf6fd8c75b778b23d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
-
-        $__internal_e33902ec88ef78a617abdb889f477e534fe0dd99220b9751a223a110e66fc9e3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e33902ec88ef78a617abdb889f477e534fe0dd99220b9751a223a110e66fc9e3->enter($__internal_e33902ec88ef78a617abdb889f477e534fe0dd99220b9751a223a110e66fc9e3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
-
-        echo "AppBundle:Admin:showAllUsers";
-        
-        $__internal_e33902ec88ef78a617abdb889f477e534fe0dd99220b9751a223a110e66fc9e3->leave($__internal_e33902ec88ef78a617abdb889f477e534fe0dd99220b9751a223a110e66fc9e3_prof);
-
-        
-        $__internal_4a6a946cb1d0459b785f569488549a727d859d25e9a2b63bf6fd8c75b778b23d->leave($__internal_4a6a946cb1d0459b785f569488549a727d859d25e9a2b63bf6fd8c75b778b23d_prof);
-
-    }
-
-    // line 5
+    // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_aee0b7ed8a85d77308aaa113b8252f0be4382529fffc6b0656ebce29bb99f3da = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_aee0b7ed8a85d77308aaa113b8252f0be4382529fffc6b0656ebce29bb99f3da->enter($__internal_aee0b7ed8a85d77308aaa113b8252f0be4382529fffc6b0656ebce29bb99f3da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e08d2dd722c11a9c9a999c3ff8a258347d82b0be3393a14b506721515b3c128a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e08d2dd722c11a9c9a999c3ff8a258347d82b0be3393a14b506721515b3c128a->enter($__internal_e08d2dd722c11a9c9a999c3ff8a258347d82b0be3393a14b506721515b3c128a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_bfe6288c5a7035658a084222e6dbec92d5c2a1b297af91d2cef54b77be4d3101 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bfe6288c5a7035658a084222e6dbec92d5c2a1b297af91d2cef54b77be4d3101->enter($__internal_bfe6288c5a7035658a084222e6dbec92d5c2a1b297af91d2cef54b77be4d3101_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_c30327c657962c2a71f151cd07ac549c093cdd1788e0144b3db8cd7d5aec5646 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c30327c657962c2a71f151cd07ac549c093cdd1788e0144b3db8cd7d5aec5646->enter($__internal_c30327c657962c2a71f151cd07ac549c093cdd1788e0144b3db8cd7d5aec5646_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
-        echo "<h1>Welcome to the Admin:showAllUsers page</h1>
+        // line 3
+        echo "<h1>All Users</h1>
 ";
+        // line 4
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["users"] ?? $this->getContext($context, "users")));
+        foreach ($context['_seq'] as $context["_key"] => $context["user"]) {
+            // line 5
+            echo "    <li>";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["user"], "username", array()), "html", null, true);
+            echo "</li>
+";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
         
-        $__internal_bfe6288c5a7035658a084222e6dbec92d5c2a1b297af91d2cef54b77be4d3101->leave($__internal_bfe6288c5a7035658a084222e6dbec92d5c2a1b297af91d2cef54b77be4d3101_prof);
+        $__internal_c30327c657962c2a71f151cd07ac549c093cdd1788e0144b3db8cd7d5aec5646->leave($__internal_c30327c657962c2a71f151cd07ac549c093cdd1788e0144b3db8cd7d5aec5646_prof);
 
         
-        $__internal_aee0b7ed8a85d77308aaa113b8252f0be4382529fffc6b0656ebce29bb99f3da->leave($__internal_aee0b7ed8a85d77308aaa113b8252f0be4382529fffc6b0656ebce29bb99f3da_prof);
+        $__internal_e08d2dd722c11a9c9a999c3ff8a258347d82b0be3393a14b506721515b3c128a->leave($__internal_e08d2dd722c11a9c9a999c3ff8a258347d82b0be3393a14b506721515b3c128a_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "AppBundle:Admin:show_all_users.html.twig";
+        return "@App/Admin/show_all_users.html.twig";
     }
 
     public function isTraitable()
@@ -87,7 +81,7 @@ class __TwigTemplate_690f493ef66fe78aac9c68896ab1ba99b970de7d2846a91fc61ce9021d4
 
     public function getDebugInfo()
     {
-        return array (  68 => 6,  59 => 5,  41 => 3,  11 => 1,);
+        return array (  56 => 5,  52 => 4,  49 => 3,  40 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -100,13 +94,12 @@ class __TwigTemplate_690f493ef66fe78aac9c68896ab1ba99b970de7d2846a91fc61ce9021d4
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% extends \"base.html.twig\" %}
-
-{% block title %}AppBundle:Admin:showAllUsers{% endblock %}
-
+        return new Twig_Source("{% extends 'base.html.twig' %}
 {% block body %}
-<h1>Welcome to the Admin:showAllUsers page</h1>
-{% endblock %}
-", "AppBundle:Admin:show_all_users.html.twig", "/home/nicolaescu/Workspace/Car-Rental/src/AppBundle/Resources/views/Admin/show_all_users.html.twig");
+<h1>All Users</h1>
+{% for user in users %}
+    <li>{{ user.username }}</li>
+{% endfor %}
+{% endblock %}", "@App/Admin/show_all_users.html.twig", "/home/nicolaescu/Workspace/Car-Rental/src/AppBundle/Resources/views/Admin/show_all_users.html.twig");
     }
 }

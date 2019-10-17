@@ -15,20 +15,20 @@ class __TwigTemplate_12bfe17392a8037d9ac4b438a5206c38bb8dc1112c3b4d751324e74e346
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8c2a3a23f520d46e3b11b33e8aaa7a5b155652c7005882e31f3bc77cf54851a4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8c2a3a23f520d46e3b11b33e8aaa7a5b155652c7005882e31f3bc77cf54851a4->enter($__internal_8c2a3a23f520d46e3b11b33e8aaa7a5b155652c7005882e31f3bc77cf54851a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/images/icon-minus-square-o.svg"));
+        $__internal_6cd78598d3117c7bcd8fc56a674e2302c774d5fb25411a54d972ae028490c283 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_6cd78598d3117c7bcd8fc56a674e2302c774d5fb25411a54d972ae028490c283->enter($__internal_6cd78598d3117c7bcd8fc56a674e2302c774d5fb25411a54d972ae028490c283_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/images/icon-minus-square-o.svg"));
 
-        $__internal_bfea2e4b7faf7637856b4755e4f591828db446ca07a655e12fff68cc954fa54b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bfea2e4b7faf7637856b4755e4f591828db446ca07a655e12fff68cc954fa54b->enter($__internal_bfea2e4b7faf7637856b4755e4f591828db446ca07a655e12fff68cc954fa54b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/images/icon-minus-square-o.svg"));
+        $__internal_44e7f20876ce18224fbe22e351b71e9c40a27fcc4d51ec5a2dcd211f24407b71 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_44e7f20876ce18224fbe22e351b71e9c40a27fcc4d51ec5a2dcd211f24407b71->enter($__internal_44e7f20876ce18224fbe22e351b71e9c40a27fcc4d51ec5a2dcd211f24407b71_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/images/icon-minus-square-o.svg"));
 
         // line 1
         echo "<svg width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1344 800v64q0 14-9 23t-23 9H480q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448V416q0-66-47-113t-113-47H480q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5T1312 1536H480q-119 0-203.5-84.5T192 1248V416q0-119 84.5-203.5T480 128h832q119 0 203.5 84.5T1600 416z\"/></svg>
 ";
         
-        $__internal_8c2a3a23f520d46e3b11b33e8aaa7a5b155652c7005882e31f3bc77cf54851a4->leave($__internal_8c2a3a23f520d46e3b11b33e8aaa7a5b155652c7005882e31f3bc77cf54851a4_prof);
+        $__internal_6cd78598d3117c7bcd8fc56a674e2302c774d5fb25411a54d972ae028490c283->leave($__internal_6cd78598d3117c7bcd8fc56a674e2302c774d5fb25411a54d972ae028490c283_prof);
 
         
-        $__internal_bfea2e4b7faf7637856b4755e4f591828db446ca07a655e12fff68cc954fa54b->leave($__internal_bfea2e4b7faf7637856b4755e4f591828db446ca07a655e12fff68cc954fa54b_prof);
+        $__internal_44e7f20876ce18224fbe22e351b71e9c40a27fcc4d51ec5a2dcd211f24407b71->leave($__internal_44e7f20876ce18224fbe22e351b71e9c40a27fcc4d51ec5a2dcd211f24407b71_prof);
 
     }
 
@@ -53,6 +53,6 @@ class __TwigTemplate_12bfe17392a8037d9ac4b438a5206c38bb8dc1112c3b4d751324e74e346
     public function getSourceContext()
     {
         return new Twig_Source("<svg width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1344 800v64q0 14-9 23t-23 9H480q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h832q14 0 23 9t9 23zm128 448V416q0-66-47-113t-113-47H480q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113zm128-832v832q0 119-84.5 203.5T1312 1536H480q-119 0-203.5-84.5T192 1248V416q0-119 84.5-203.5T480 128h832q119 0 203.5 84.5T1600 416z\"/></svg>
-", "@Twig/images/icon-minus-square-o.svg", "/home/nicolaescu/Workspace/CarRental/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/images/icon-minus-square-o.svg");
+", "@Twig/images/icon-minus-square-o.svg", "/home/nicolaescu/Workspace/Car-Rental/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/images/icon-minus-square-o.svg");
     }
 }
