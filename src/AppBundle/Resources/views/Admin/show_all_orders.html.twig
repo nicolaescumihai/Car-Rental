@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Orders list</h1>
+
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+        {% for order in orders %}
+                <a href="{{ path('orders_show', { 'id': order.id }) }}">{{ order.id }}</a>
+                <br>
+                {% for extra in order.extras %}
+                    {{ extra.name }}
+                    {{ extra.description }}
+                    {{ extra.price }}<br>
+                {% endfor %}
+                {% for car in order.cars %}
+                    {{ car.name }}
+                    {{ car.description }}
+                    {{ car.price }}
+                {% endfor %}
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
