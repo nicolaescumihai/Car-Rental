@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Extras list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for extra in extras %}
+            <tr>
+                <td><a href="{{ path('extras_show', { 'id': extra.id }) }}">{{ extra.id }}</a></td>
+                <td>{{ extra.name }}</td>
+                <td>{{ extra.description }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('extras_show', { 'id': extra.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('extras_edit', { 'id': extra.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('extras_new') }}">Create a new extra</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Orders list</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for order in orders %}
+            <tr>
+                <td><a href="{{ path('orders_show', { 'id': order.id }) }}">{{ order.id }}</a></td>
+                <td>{% if order.date %}{{ order.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ order.price }}</td>
+
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% for car in orders.cars %}
+        <td>{{ car.name }}</td>
+        <td>{{ car.description }}</td>
+        <td>{{ car.price }}</td>
+    {% endfor %}
+<br>
+    {% for extra in orders.extras %}
+        <td>{{ extra.name }}</td>
+        <td>{{ extra.description }}</td>
+        <td>{{ extra.price }}</td>
+    {% endfor %}
+    <br>
+<td><strong> Total Price : {{ totalPrice }}</strong></td>
+    <br>
+
+
+    <a class="btn btn-primary" href="#" role="button">Pay</a>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h2>Cars list</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Rented</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+
+        {% for car in cars %}
+            <tr>
+                <th>{{ car.name }}</th>
+                <td>{{ car.description }}</td>
+                <td>{{ car.price }}</td>
+                <td>{% if car.rented %}Yes{% else %}No{% endif %}</td>
+                <td>
+                    <a class="btn btn-primary" href="{{ path('orders_new', {carId: car.id}) }}" role="button">Add</a>
+                </td>
+            </tr>
+        {% endfor %}
+<br>
+        {% for car in cars2 %}
+        <tr>
+            <th>{{ car.name }}</th> <br>
+            <td>{{ car.description }}</td>
+            <td>{{ car.price }}</td>
+            <td>{% if car.rented %}Yes{% else %}No{% endif %}</td>
+{#            <td>#}
+{#                <a class="btn btn-primary" href="{{ path('orders_new', {carId: car.id}) }}" role="button">Add</a>#}
+{#            </td>#}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

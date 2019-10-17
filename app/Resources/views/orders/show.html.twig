@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Order</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ order.id }}</td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td>{% if order.date %}{{ order.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td>{{ order.price }}</td>
+            </tr>
+            {% for extra in extras %}
+                <tr>
+
+                    <td>{{ extra.name }}</td>
+                    <td>{{ extra.description }}</td>
+                    <td>{{ extra.price }}</td>
+                    <td>
+                        <a class="btn btn-primary" href="{{ path('orders_new2', {extraId: extra.id, orderId: order.id}) }}" role="button">Add</a>
+                    </td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+    <a class="btn btn-primary" href="{{ path('app_orders_finishpay', {orderId: order.id}) }}" role="button">Add</a>
+{% endblock %}
